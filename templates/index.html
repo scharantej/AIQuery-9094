@@ -1,0 +1,26 @@
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+<body>
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-md-6">
+<h1>AI Data Query</h1>
+<p>Please enter the following information:</p>
+<form action="/submit" method="POST">
+<div class="form-group">
+<label for="serial_number">Serial Numbers (comma-separated):</label>
+<input type="text" class="form-control" id="serial_number" name="serial_number" required>
+</div>
+<div class="form-group">
+<label for="attachment_name">Attachment Names (comma-separated):</label>
+<input type="text" class="form-control" id="attachment_name" name="attachment_name">
+</div>
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+</div>
+</div>
+</body>
+
+
